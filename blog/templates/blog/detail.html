@@ -16,7 +16,12 @@
                   <h2 class="subtitle is-4">{{ post.created_at|date:'M d Y' }}</h2>
                   <h1 class="title">{{ post.title }}</h1>
                   <p><strong>{{ post.intro }}</strong></p>
-
+                  <a href="https://www.goodreads.com/book/show/11084145-steve-jobs" style="float: left; padding-right: 20px"><img border="0" alt="Steve Jobs" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/11084145-steve-jobs">Steve Jobs</a> by <a href="https://www.goodreads.com/author/show/7111.Walter_Isaacson">Walter Isaacson</a><br/>
+                  My rating: <a href="https://www.goodreads.com/review/show/6030414382">5 of 5 stars</a><br /><br />
+                  
+                  <br/><br/>
+                  <a href="https://www.goodreads.com/review/list/48612760-heqing-huang">View all my reviews</a>
+                  
                   <p> {{post.body}} </p>
                 
                   <p> <small> Category: <a href="{% url 'category_detail' post.category.slug %}"> {{post.category}} </a> </small></p>
